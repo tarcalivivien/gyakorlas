@@ -3,13 +3,16 @@
     margin-left: auto;
     margin-right: auto;
     font-family: 'Open Sans', sans-serif;
-
 }
 .newsletter {
     border-radius: 3px;
     color: grey;
-    border:solid thin #cfcfcf;
+    border: thin solid #cfcfcf;
     padding: 10px;
+    position: relative;
+    padding-bottom: 10px;
+
+   
 }
 .newsletter button {
     background-color: #3cb878;
@@ -18,17 +21,38 @@
     display: block;
     width: 100%;
     height: 30px;
-
+    margin-bottom: 10px;
 }
-.newsletter input#email{
+.newsletter input#email {
     display: block;
     width: 100%;
     height: 30px;
-    border:solid 1px #cfcfcf;
+    border: solid 1px #cfcfcf;
     border-radius: 3px;
     margin-bottom: 4px;
     box-sizing: border-box;
 }
 .newsletter h3 {
     margin-top: 0;
+}
+.newsletter #terms {
+    position: relative;
+    top: 1px;
+}
+.newsletter #closex{
+    position: absolute;
+    top: 0;
+    right: 4px;
+}
+#questionmark{
+    background-color: #3cb878;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
 }
